@@ -4,10 +4,14 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 ## Demo Screens
 
-| Screen 1                          | Screen 2                          | Screen 3                          |
-|----------------------------------|-----------------------------------|-----------------------------------|
-| ![](./Demo/screen1.png)          | ![](./Demo/screen2.png)           | ![](./Demo/screen3.png)           |
+### Screen 1
+![Screen 1](./Demo/screen1.png)
 
+### Screen 2
+![Screen 2](./Demo/screen2.png)
+
+### Screen 3
+![Screen 3](./Demo/screen3.png)
 
 ## Development server
 
