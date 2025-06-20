@@ -1,0 +1,16 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; 
+  padding: 1rem;
+}
+
+mat-form-field {
+  width: 100%; 
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}

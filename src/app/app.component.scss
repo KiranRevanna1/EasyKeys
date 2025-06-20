@@ -1,0 +1,16 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 128px); // 64px header + 64px footer
+  background-color: #f5f6fa;
+}
+
+.form-card {
+  background: white;
+  padding: 2rem;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,17 @@
+<h2 style="text-align: center;">Bank Details</h2>
+<form [formGroup]="form" (ngSubmit)="goNext()" class="form-container">
+  <mat-form-field appearance="fill">
+    <mat-label>Account Number</mat-label>
+    <input matInput formControlName="accountNumber" required />
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>IFSC Code</mat-label>
+    <input matInput formControlName="ifsc" required />
+  </mat-form-field>
+
+   <div class="button-row">
+    <button mat-button color="primary" (click)="goBack()">Back</button>
+    <button mat-raised-button color="accent" (click)="goNext()">Next</button>
+  </div>
+</form>

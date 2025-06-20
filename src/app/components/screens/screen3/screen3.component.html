@@ -1,0 +1,25 @@
+<h2 style="text-align: center; margin-bottom: 1rem;">Overall Information</h2>
+
+<div class="card-container">
+  <mat-card class="personal-card">
+    <mat-card-title class="title-blue">Personal Details</mat-card-title>
+    <mat-card-content>
+      <p><strong>Name:</strong> {{ data.name }}</p>
+      <p><strong>Email:</strong> {{ data.email }}</p>
+      <p><strong>Phone:</strong> {{ data.phone }}</p>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="bank-card">
+    <mat-card-title class="title-green">Bank Details</mat-card-title>
+    <mat-card-content>
+      <p><strong>Account Number:</strong> {{ data.accountNumber }}</p>
+      <p><strong>IFSC:</strong> {{ data.ifsc }}</p>
+    </mat-card-content>
+  </mat-card>
+
+  <div class="button-row">
+    <button mat-button color="primary" (click)="goBack()">Back</button>
+    <button mat-raised-button color="accent" (click)="submit()">Submit</button>
+  </div>
+</div>

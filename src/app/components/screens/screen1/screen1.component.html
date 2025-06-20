@@ -1,0 +1,22 @@
+<h2 style="text-align: center;">Personal Details</h2>
+<form [formGroup]="form" (ngSubmit)="goNext()" class="form-container">
+  <mat-form-field appearance="fill">
+    <mat-label>Name</mat-label>
+    <input matInput formControlName="name" required />
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Email</mat-label>
+    <input matInput type="email" formControlName="email" required />
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Phone Number</mat-label>
+    <input matInput type="tel" formControlName="phone" required />
+  </mat-form-field>
+
+   <div class="button-row">
+    <span></span>
+    <button mat-raised-button color="accent" (click)="goNext()">Next</button>
+  </div>
+</form>
