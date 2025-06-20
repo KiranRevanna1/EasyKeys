@@ -2,6 +2,13 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.3.
 
+## Demo Screens
+
+| Screen 1                          | Screen 2                          | Screen 3                          |
+|----------------------------------|-----------------------------------|-----------------------------------|
+| ![](./Demo/screen1.png)          | ![](./Demo/screen2.png)           | ![](./Demo/screen3.png)           |
+
+
 ## Development server
 
 To start a local development server, run:
